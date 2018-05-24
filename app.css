@@ -6,3 +6,7 @@ body {
   background: #fff;
   box-sizing: border-box;
 }
+
+.hero {
+  background-image: image(img/BusinessBoutique_Courses_HeroImage.jpg);
+}
