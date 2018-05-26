@@ -7,6 +7,20 @@ body {
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar_right {
+  display: flex;
+  flex-direction: column;
+}
+
 .hero {
-  background-image: image(img/BusinessBoutique_Courses_HeroImage.jpg);
+  background: url('img/BusinessBoutique_Courses_HeroImage.jpg');
+}
+
+.card_left {
+  background-image: image('img/BusinessBoutique_Courses_BIB.jpg');
 }
