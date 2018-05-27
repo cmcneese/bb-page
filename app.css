@@ -1,10 +1,6 @@
+/* @import 'reset'; */
 body {
-  margin: 0;
-}
-
-* {
-  background: #fff;
-  box-sizing: border-box;
+  background: white;
 }
 
 a {
@@ -12,9 +8,15 @@ a {
   color: black;
 }
 
-.navbar_right {
+
+.container {
   display: flex;
+  justify-content: space-between;
   flex-direction: column;
+}
+
+
+.navbar_right {
 }
 
 .hero {
