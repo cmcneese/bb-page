@@ -6,13 +6,13 @@ body {
 a {
   text-decoration: none;
   color: black;
+  padding: 1rem;
 }
 
 
 .container {
   display: flex;
   justify-content: space-between;
-  flex-direction: column;
 }
 
 
@@ -20,7 +20,10 @@ a {
 }
 
 .hero {
-  background: url('img/BusinessBoutique_Courses_HeroImage.jpg');
+  display: flex;
+  align-items: center;
+  background: url('./img/BusinessBoutique_Courses_BIB0.jpg') top center;
+
 }
 
 .card_left {
