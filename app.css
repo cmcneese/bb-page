@@ -31,9 +31,8 @@ header {
 }
 .hero {
   display: flex;
-  align-items: center;
-  background: blue;
-  background-image: url('.bb-page/img/BusinessBoutique_Courses_HeroImage.jpg');
+  flex-direction: column;
+  flex-grow: 1;
 }
 
 .card_left {
