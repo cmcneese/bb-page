@@ -12,8 +12,10 @@ a {
 }
 
 header {
+  display: flex;
+  justify-content: space-between;
   background-color: #25a7f0;
-  overflow: auto;
+  /* overflow: auto; */
   padding: .5em;
 }
 
