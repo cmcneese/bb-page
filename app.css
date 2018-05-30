@@ -9,19 +9,20 @@ a {
   padding: 1rem;
 }
 
-.container-navbar {
+header {
+  background-color: #25a7f0;
+}
+
+/* .container-navbar {
   display: flex;
   justify-content: space-between;
   background: #abc;
+} */
+
+
+.test {
+  background: blue;
 }
-
-.navbar_left {
-
-}
-
-.navbar_right {
-}
-
 .hero {
   display: flex;
   align-items: center;
