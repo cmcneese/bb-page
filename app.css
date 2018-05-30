@@ -1,20 +1,23 @@
-/* @import 'reset'; */
 body {
   background: white;
+  margin: 0;
 }
 
 a {
   text-decoration: none;
-  color: black;
+  color: red;
   padding: 1rem;
 }
 
-
-.container {
+.container-navbar {
   display: flex;
   justify-content: space-between;
+  background: #abc;
 }
 
+.navbar_left {
+
+}
 
 .navbar_right {
 }
@@ -22,8 +25,8 @@ a {
 .hero {
   display: flex;
   align-items: center;
-  background: url('./img/BusinessBoutique_Courses_BIB0.jpg') top center;
-
+  background: blue;
+  background-image: url('.bb-page/img/BusinessBoutique_Courses_HeroImage.jpg');
 }
 
 .card_left {
