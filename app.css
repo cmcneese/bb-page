@@ -33,6 +33,11 @@ header {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
+  background-image: url('./img/BusinessBoutique_Courses_HeroImage.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 40rem;
 }
 
 .card_left {
