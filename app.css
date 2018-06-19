@@ -11,26 +11,24 @@ a {
   padding: 1rem;
 }
 
-header {
+
+.header {
   display: flex;
   justify-content: space-between;
-  background-color: #25a7f0;
+  background: #25a7f0;
   padding: .5em;
 }
 
-/* .container-navbar {
+nav {
   display: flex;
-  justify-content: space-between;
-  background: #abc;
-} */
-
+}
 
 .test {
   background: blue;
 }
 .hero {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   flex-grow: 1;
   background-image: url('./img/BusinessBoutique_Courses_HeroImage_Mobile.jpg');
   background-repeat: no-repeat;
@@ -40,5 +38,23 @@ header {
 }
 
 .card_left {
-  background-image: url('.img/BusinessBoutique_Courses_BIB.jpg');
+  display: flex;
+  flex-wrap: nowrap;
+  background-image: url('./img/BusinessBoutique_Courses_BIB0.jpg');
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 40rem;
+}
+
+.card_right {
+  display: flex;
+  flex-direction: column;
+  background-image: url('./img/BusinessBoutique_Courses_SMS.jpg');
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 40rem;
 }
